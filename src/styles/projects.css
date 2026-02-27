@@ -38,18 +38,20 @@ body {
 }
 
 .back-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     color: #00FF41;
     text-decoration: none;
     font-size: 0.95rem;
     margin-bottom: 20px;
     transition: all 0.3s ease;
-    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 255, 65, 0.3);
 }
 
 .back-link:hover {
     color: #00FF41;
-    border-bottom-color: rgba(0, 212, 255, 0.6);
+    border-bottom-color: rgba(0, 255, 65, 0.6);
 }
 
 .projects-header h1 {
@@ -74,7 +76,7 @@ body {
 
 .project-card {
     background: rgba(3, 15, 8, 0.6);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    border: 1px solid rgba(0, 255, 65, 0.2);
     border-radius: 12px;
     padding: 35px;
     transition: all 0.3s ease;
@@ -83,9 +85,9 @@ body {
 }
 
 .project-card:hover {
-    border-color: rgba(0, 212, 255, 0.4);
+    border-color: rgba(0, 255, 65, 0.6);
     background: rgba(3, 15, 8, 0.8);
-    box-shadow: 0 12px 40px rgba(0, 212, 255, 0.15);
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.3), 0 12px 40px rgba(0, 255, 65, 0.15);
     transform: translateY(-4px);
 }
 
@@ -113,7 +115,7 @@ body {
 
 .tech-tags span {
     background: rgba(0, 212, 255, 0.1);
-    border: 1px solid rgba(0, 212, 255, 0.3);
+    border: 1px solid rgba(0, 255, 65, 0.3);
     color: #00FF41;
     padding: 6px 14px;
     border-radius: 20px;
@@ -123,7 +125,7 @@ body {
 }
 
 .tech-tags span:hover {
-    background: rgba(0, 212, 255, 0.2);
+    background: rgba(0, 255, 65, 0.2);
     border-color: rgba(0, 212, 255, 0.5);
 }
 
@@ -164,7 +166,7 @@ body {
 }
 
 .project-details.capabilities {
-    border-left-color: rgba(0, 212, 255, 0.6);
+    border-left-color: rgba(0, 255, 65, 0.6);
     background: rgba(0, 150, 170, 0.08);
 }
 
@@ -266,7 +268,7 @@ body {
 .status {
     background: rgba(0, 212, 255, 0.15);
     color: #00FF41;
-    border: 1px solid rgba(0, 212, 255, 0.3);
+    border: 1px solid rgba(0, 255, 65, 0.3);
 }
 
 .category {
@@ -280,7 +282,7 @@ body {
     margin-top: 20px;
     padding: 12px 24px;
     background: rgba(0, 212, 255, 0.1);
-    border: 1px solid rgba(0, 212, 255, 0.3);
+    border: 1px solid rgba(0, 255, 65, 0.3);
     color: #00FF41;
     text-decoration: none;
     border-radius: 4px;
@@ -289,9 +291,9 @@ body {
 }
 
 .project-link:hover {
-    background: rgba(0, 212, 255, 0.2);
-    border-color: rgba(0, 212, 255, 0.6);
-    box-shadow: 0 4px 16px rgba(0, 212, 255, 0.2);
+    background: rgba(0, 255, 65, 0.2);
+    border-color: rgba(0, 255, 65, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 255, 65, 0.2);
 }
 
 .footer {
@@ -307,13 +309,13 @@ body {
 .footer a {
     color: #ffffff;
     text-decoration: none;
-    transition: color 0.3s ease;
-    border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-shadow: 0 0 8px rgba(0, 255, 65, 0.2);
 }
 
 .footer a:hover {
     color: #00FF41;
-    border-bottom-color: rgba(0, 212, 255, 0.5);
 }
 
 @keyframes slideDown {

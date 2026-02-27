@@ -38,18 +38,20 @@ body {
 }
 
 .back-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     color: #00FF41;
     text-decoration: none;
     font-size: 0.95rem;
     margin-bottom: 20px;
     transition: all 0.3s ease;
-    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 255, 65, 0.3);
 }
 
 .back-link:hover {
     color: #00FF41;
-    border-bottom-color: rgba(0, 212, 255, 0.6);
+    border-bottom-color: rgba(0, 255, 65, 0.6);
 }
 
 .skills-header h1 {
@@ -84,7 +86,14 @@ body {
     color: #00FF41;
     letter-spacing: 0.5px;
     padding-bottom: 12px;
-    border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+    border-bottom: 2px solid rgba(0, 255, 65, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.skill-category h2 i {
+    font-size: 1.3em;
 }
 
 .skill-category.soft-skills h2 {
@@ -100,7 +109,7 @@ body {
 
 .skill-item {
     background: rgba(3, 15, 8, 0.6);
-    border: 1px solid rgba(0, 212, 255, 0.2);
+    border: 1px solid rgba(0, 255, 65, 0.2);
     border-radius: 8px;
     padding: 20px;
     transition: all 0.3s ease;
@@ -108,9 +117,9 @@ body {
 }
 
 .skill-item:hover {
-    border-color: rgba(0, 212, 255, 0.5);
+    border-color: rgba(0, 255, 65, 0.6);
     background: rgba(3, 15, 8, 0.8);
-    box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15);
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.3), 0 8px 32px rgba(0, 255, 65, 0.15);
     transform: translateY(-4px);
 }
 
@@ -141,13 +150,13 @@ body {
 .footer a {
     color: #ffffff;
     text-decoration: none;
-    transition: color 0.3s ease;
-    border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-shadow: 0 0 8px rgba(0, 255, 65, 0.2);
 }
 
 .footer a:hover {
     color: #00FF41;
-    border-bottom-color: rgba(0, 212, 255, 0.5);
 }
 
 @keyframes slideDown {

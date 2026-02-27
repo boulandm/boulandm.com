@@ -221,6 +221,10 @@ body {
     color: #00FF41;
 }
 
+.footer a i {
+    margin-right: 4px;
+}
+
 /* Custom scrollbar styling */
 .content::-webkit-scrollbar {
     width: 8px;

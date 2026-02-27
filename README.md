@@ -2,6 +2,8 @@
 
 A single-page website featuring an animated 3D Rubik's cube built with Three.js. Showcasing backend development skills and algorithmic problem-solving expertise.
 
+**Built with [Claude](https://claude.ai)**
+
 ## Features
 
 - **3D Rendering**: Interactive Rubik's cube with realistic colors

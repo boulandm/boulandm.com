@@ -161,6 +161,25 @@ body {
     left: 0;
 }
 
+.project-details.capabilities {
+    border-left-color: rgba(0, 212, 255, 0.6);
+    background: rgba(0, 150, 170, 0.08);
+}
+
+.project-details.capabilities h3 {
+    color: #00d4ff;
+}
+
+.project-details.technical-stack {
+    border-left-color: rgba(100, 150, 200, 0.5);
+    background: rgba(70, 130, 180, 0.08);
+    margin-top: 15px;
+}
+
+.project-details.technical-stack h3 {
+    color: #87ceeb;
+}
+
 .project-meta {
     display: flex;
     gap: 15px;

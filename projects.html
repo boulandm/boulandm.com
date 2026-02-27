@@ -23,7 +23,7 @@
         <div class="projects-container">
             <div class="project-card">
                 <h2>Trading Application</h2>
-                <p>A modern, extensible desktop trading platform built with <strong>Java 21 and Spring Boot</strong>, featuring real-time candlestick charting and WebSocket streaming from Alpaca Markets.</p>
+                <p>A desktop trading platform with <strong>real-time market data streaming</strong> and professional candlestick charting. Built with pluggable architecture for multi-broker support, currently integrated with Alpaca Markets.</p>
 
                 <div class="tech-tags">
                     <span>Java 21</span>
@@ -34,15 +34,27 @@
                     <span>H2 Database</span>
                 </div>
 
-                <div class="project-details">
-                    <h3>Key Features:</h3>
+                <div class="project-details capabilities">
+                    <h3>Capabilities</h3>
                     <ul>
-                        <li>Real-time market data streaming via WebSocket</li>
-                        <li>Interactive candlestick charts with multiple timeframes</li>
-                        <li>Provider abstraction pattern for multi-broker support</li>
-                        <li>Reactive non-blocking I/O with Spring WebFlux</li>
-                        <li>H2 database persistence with Spring Data JPA</li>
-                        <li>Componentized Swing UI with thread-safe data binding</li>
+                        <li>Stream live market data and watch candlesticks update in real-time</li>
+                        <li>View historical price data across multiple timeframes (1-min, 1-hour, 1-day)</li>
+                        <li>Market data visualization with basic charting and statistics</li>
+                        <li>Pluggable data provider architecture - easily swap between trading APIs</li>
+                        <li>Persistent data caching to minimize API calls and improve performance</li>
+                        <li>Foundation for algorithmic trading - ready for backtesting and order execution</li>
+                    </ul>
+                </div>
+
+                <div class="project-details technical-stack">
+                    <h3>Technical Stack</h3>
+                    <ul>
+                        <li>Java 21 with Spring Boot 4.0.2 for modern, reactive application architecture</li>
+                        <li>Spring WebFlux for non-blocking, asynchronous HTTP and WebSocket handling</li>
+                        <li>JFreeChart for professional candlestick charting and market visualization</li>
+                        <li>OkHttp3 WebSocket client for efficient real-time data streaming</li>
+                        <li>Spring Data JPA with H2 database for persistence and caching</li>
+                        <li>Provider pattern design for multi-broker extensibility and clean architecture</li>
                     </ul>
                 </div>
 

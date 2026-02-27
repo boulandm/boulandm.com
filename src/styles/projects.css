@@ -19,6 +19,7 @@ body {
     height: 100%;
     z-index: 1;
     opacity: 0.15;
+    filter: brightness(1.4) contrast(1.2);
 }
 
 .projects-content {

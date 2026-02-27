@@ -85,6 +85,11 @@ body {
     border-bottom: 2px solid rgba(0, 212, 255, 0.3);
 }
 
+.skill-category.soft-skills h2 {
+    color: #87ceeb;
+    border-bottom-color: rgba(135, 206, 235, 0.3);
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

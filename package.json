@@ -1,0 +1,17 @@
+{
+  "name": "boulandm.com",
+  "version": "1.0.0",
+  "description": "Personal website with 3D Rubik's cube",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "portfolio",
+    "three.js",
+    "rubiks-cube"
+  ],
+  "author": "Mohammad Bouland",
+  "license": "MIT"
+}

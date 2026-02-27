@@ -91,12 +91,12 @@ body {
     box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
 }
 
-.links a.projects-link {
+.links a.nav-link {
     border: 2px solid #00d4ff;
     background: rgba(0, 212, 255, 0.05);
 }
 
-.links a.projects-link:hover {
+.links a.nav-link:hover {
     background-color: #00d4ff;
     color: #0a0e27;
 }

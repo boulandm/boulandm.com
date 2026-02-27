@@ -1,0 +1,69 @@
+<!--
+    Mohammad Bouland's Projects
+    Built with Claude (https://claude.ai)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Mohammad Bouland</title>
+    <link rel="stylesheet" href="src/styles/projects.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+
+    <div class="projects-content">
+        <header class="projects-header">
+            <a href="index.html" class="back-link">← Back</a>
+            <h1>Projects</h1>
+            <p class="subtitle">Building software that solves real problems</p>
+        </header>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <h2>Trading Application</h2>
+                <p>A modern, extensible desktop trading platform built with <strong>Java 21 and Spring Boot</strong>, featuring real-time candlestick charting and WebSocket streaming from Alpaca Markets.</p>
+
+                <div class="tech-tags">
+                    <span>Java 21</span>
+                    <span>Spring Boot</span>
+                    <span>WebSocket</span>
+                    <span>JFreeChart</span>
+                    <span>Reactive</span>
+                    <span>H2 Database</span>
+                </div>
+
+                <div class="project-details">
+                    <h3>Key Features:</h3>
+                    <ul>
+                        <li>Real-time market data streaming via WebSocket</li>
+                        <li>Interactive candlestick charts with multiple timeframes</li>
+                        <li>Provider abstraction pattern for multi-broker support</li>
+                        <li>Reactive non-blocking I/O with Spring WebFlux</li>
+                        <li>H2 database persistence with Spring Data JPA</li>
+                        <li>Componentized Swing UI with thread-safe data binding</li>
+                    </ul>
+                </div>
+
+                <div class="project-meta">
+                    <span class="status">Active Development</span>
+                    <span class="category">Backend / Desktop Application</span>
+                </div>
+
+                <a href="https://github.com/boulandm/TradingApp" target="_blank" rel="noopener noreferrer" class="project-link">
+                    View on GitHub →
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Created with <a href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude</a></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="src/scripts/cube.js"></script>
+    <script src="src/scripts/projects-background.js"></script>
+</body>
+</html>
